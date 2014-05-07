@@ -109,10 +109,10 @@ section {
 			transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 		}
 		.form-control:focus {
-			border-color: #66afe9;
+			border-color: #14c5ae;
 			outline: 0;
-			-webkit-box-shadow: 0 0 8px rgba(102, 175, 233, .6);
-			      box-shadow: 0 0 8px rgba(102, 175, 233, .6);
+			-webkit-box-shadow: 0 0 8px rgba(20, 197, 174, .6);
+			      box-shadow: 0 0 8px rgba(20, 197, 174, .6);
 		}
 		.form-control::-moz-placeholder {
 			color: #838791;
@@ -164,6 +164,7 @@ footer {
 
 button, a {
 	transition: all 0.2s ease 0s;
+	outline: none; 
 
 	&.btn-submit {
 		background-color: #14c5ae;
@@ -178,6 +179,7 @@ button, a {
 			background-color: darken(#14c5ae, 5%);
 			color: #fff;
 			border: none;
+			outline: none;
 		}
 	}
 
